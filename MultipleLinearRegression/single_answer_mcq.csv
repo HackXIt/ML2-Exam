@@ -1,0 +1,61 @@
+Question,Option,IsCorrect,Explanation
+What does a low p-value (< 0.05) typically indicate in multiple linear regression?,There is strong evidence against the null hypothesis.,True,This suggests the predictor is statistically significant.
+What does a low p-value (< 0.05) typically indicate in multiple linear regression?,The predictor is definitely not correlated with the response.,False,Correlation and significance are related but not equivalent.
+What does a low p-value (< 0.05) typically indicate in multiple linear regression?,The model is overfitted.,False,"Overfitting relates to complexity, not p-value."
+What does a low p-value (< 0.05) typically indicate in multiple linear regression?,The residuals are normally distributed.,False,"This is a model assumption, not related to p-values."
+Which metric evaluates the overall significance of a multiple regression model?,F-statistic,True,F-statistic tests if at least one predictor variable has a non-zero coefficient.
+Which metric evaluates the overall significance of a multiple regression model?,p-value of a single coefficient,False,This only tests individual predictors.
+Which metric evaluates the overall significance of a multiple regression model?,Intercept value,False,Intercept is not used for evaluating overall model significance.
+Which metric evaluates the overall significance of a multiple regression model?,R-squared,False,"R-squared measures fit, not significance."
+What does R-squared represent in a regression model?,The proportion of variance explained by the model.,True,R-squared quantifies how well the model fits the data.
+What does R-squared represent in a regression model?,The number of significant predictors.,False,This is not represented by R-squared.
+What does R-squared represent in a regression model?,The slope of the regression line.,False,"This is represented by coefficients, not R-squared."
+What does R-squared represent in a regression model?,The standard error of the regression.,False,Standard error and R-squared are different concepts.
+What is multicollinearity in multiple regression?,High correlation between predictors.,True,Multicollinearity can make coefficient estimates unstable.
+What is multicollinearity in multiple regression?,No relationship between predictors and response.,False,This is a different issue.
+What is multicollinearity in multiple regression?,Dependence between residuals.,False,That's autocorrelation.
+What is multicollinearity in multiple regression?,Normality of predictor distributions.,False,Predictors need not be normally distributed.
+Which of the following is NOT a variable selection method in regression?,k-means clustering,True,"k-means is a clustering method, not a selection technique."
+Which of the following is NOT a variable selection method in regression?,Forward selection,False,This is a valid method.
+Which of the following is NOT a variable selection method in regression?,Backward selection,False,This is a valid method.
+Which of the following is NOT a variable selection method in regression?,Mixed selection,False,This is a combination of forward and backward selection.
+What does a high F-statistic imply in multiple regression?,The model explains a significant portion of the variance.,True,A high F-statistic suggests the model fits the data well.
+What does a high F-statistic imply in multiple regression?,The intercept is significant.,False,Intercept significance is tested separately.
+What does a high F-statistic imply in multiple regression?,Multicollinearity is high.,False,This cannot be deduced from F-statistic.
+What does a high F-statistic imply in multiple regression?,Residuals are homoscedastic.,False,Homoscedasticity is unrelated to the F-statistic.
+Which statement about adjusted R-squared is correct?,It adjusts R-squared for the number of predictors in the model.,True,It penalizes unnecessary variables.
+Which statement about adjusted R-squared is correct?,It is always higher than R-squared.,False,It can be lower when predictors are not useful.
+Which statement about adjusted R-squared is correct?,It measures prediction accuracy.,False,This is not the role of adjusted R-squared.
+Which statement about adjusted R-squared is correct?,It tests individual variable significance.,False,P-values do that.
+What is the hierarchical principle in regression modeling?,Include main effects if interaction terms are used.,True,Interactions depend on main effects.
+What is the hierarchical principle in regression modeling?,Remove all insignificant predictors.,False,This could violate the principle.
+What is the hierarchical principle in regression modeling?,Exclude correlated predictors.,False,"This is about multicollinearity, not hierarchy."
+What is the hierarchical principle in regression modeling?,Use only predictors with p-value < 0.05.,False,"That’s a guideline, not a principle."
+What is the primary objective of backward selection?,Remove the least significant variables.,True,This method simplifies the model by removing irrelevant features.
+What is the primary objective of backward selection?,Add predictors one by one.,False,That describes forward selection.
+What is the primary objective of backward selection?,Test correlation among predictors.,False,This is not the aim of variable selection.
+What is the primary objective of backward selection?,Minimize multicollinearity.,False,"It may help, but it’s not the main purpose."
+When is forward selection used in model building?,To add the most significant variable at each step.,True,Forward selection builds up the model step-by-step.
+When is forward selection used in model building?,To remove all insignificant variables first.,False,That’s backward selection.
+When is forward selection used in model building?,To build decision trees.,False,That’s a different technique.
+When is forward selection used in model building?,To detect multicollinearity.,False,Forward selection doesn't address this directly.
+Which assumption applies to the residuals in multiple regression?,They are normally distributed.,True,This is a core assumption for inference.
+Which assumption applies to the residuals in multiple regression?,They should be correlated.,False,Residuals should be independent.
+Which assumption applies to the residuals in multiple regression?,They follow the same distribution as the predictors.,False,This is not required.
+Which assumption applies to the residuals in multiple regression?,They increase with fitted values.,False,That would indicate heteroscedasticity.
+What does a p-value above 0.1 generally indicate?,Lack of evidence to reject the null hypothesis.,True,This means the predictor is not statistically significant.
+What does a p-value above 0.1 generally indicate?,That the variable is highly correlated with response.,False,p-value does not measure correlation.
+What does a p-value above 0.1 generally indicate?,Model overfitting.,False,High p-value doesn’t imply overfitting.
+What does a p-value above 0.1 generally indicate?,R-squared is high.,False,p-value and R-squared are not directly linked.
+Why use adjusted R-squared instead of R-squared?,To account for number of predictors.,True,Adjusted R² penalizes complexity.
+Why use adjusted R-squared instead of R-squared?,It increases with more predictors.,False,Only if they improve the model.
+Why use adjusted R-squared instead of R-squared?,To measure standard error.,False,This is not the purpose of adjusted R².
+Why use adjusted R-squared instead of R-squared?,To evaluate residuals.,False,Residuals are evaluated separately.
+What is the role of interaction terms in regression?,Capture the joint effect of two predictors.,True,They model synergy between variables.
+What is the role of interaction terms in regression?,Reduce multicollinearity.,False,They may even increase it.
+What is the role of interaction terms in regression?,Test normality of residuals.,False,Unrelated to interaction.
+What is the role of interaction terms in regression?,Ensure variables are independent.,False,Interaction terms don't affect independence.
+Why is multicollinearity a problem?,It makes coefficient estimates unstable.,True,Highly correlated predictors distort estimates.
+Why is multicollinearity a problem?,It always leads to overfitting.,False,"It may cause issues, but not necessarily overfitting."
+Why is multicollinearity a problem?,It lowers R-squared.,False,R-squared may remain high despite multicollinearity.
+Why is multicollinearity a problem?,It violates residual independence.,False,That refers to autocorrelation.
