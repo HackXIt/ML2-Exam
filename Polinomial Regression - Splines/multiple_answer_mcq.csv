@@ -1,0 +1,21 @@
+﻿Question,Option,IsCorrect,Explanation
+Which of the following are advantages of spline regression over high-degree polynomial regression?,It avoids extreme oscillations,TRUE, Splines use low-degree polynomials locally which prevents wild fluctuations often seen in high-degree polynomials
+Which of the following are advantages of spline regression over high-degree polynomial regression?,It fits local patterns better,TRUE, Splines adapt locally to the data due to knot placement
+Which of the following are advantages of spline regression over high-degree polynomial regression?,It eliminates the need for knots,FALSE, Knots are essential to define where polynomial pieces change
+Which of the following are advantages of spline regression over high-degree polynomial regression?,It removes all risk of overfitting,FALSE, Overfitting can still happen if too many knots or too complex models are used
+Which terms are typically included in the design matrix for cubic spline regression with knots?,The constant term,TRUE, The intercept is always included as x to the power of 0
+Which terms are typically included in the design matrix for cubic spline regression with knots?,Powers of x up to degree 3,TRUE, Cubic splines include x x squared and x cubed as part of their basis
+Which terms are typically included in the design matrix for cubic spline regression with knots?,Truncated power terms like (x - k)^3\_+,TRUE, These terms activate after each knot in cubic splines
+Which terms are typically included in the design matrix for cubic spline regression with knots?,Residual errors for each observation,FALSE, Residuals are calculated after fitting the model and are not used as input features
+Which of the following help prevent overfitting in regression models?,Using cross-validation to select model complexity,TRUE, Cross-validation detects when a model is too flexible and generalizes poorly
+Which of the following help prevent overfitting in regression models?,Reducing the number of features or basis functions,TRUE, Simpler models are less prone to overfit
+Which of the following help prevent overfitting in regression models?,Increasing polynomial degree as much as possible,FALSE, Higher-degree polynomials increase the risk of overfitting
+Which of the following help prevent overfitting in regression models?,Applying regularization like ridge or lasso,TRUE, These methods penalize excessive complexity and shrink coefficients
+What factors influence the flexibility of a spline regression model?,The number of knots,TRUE, More knots create more segments and increase flexibility
+What factors influence the flexibility of a spline regression model?,The degree of the spline,TRUE, Higher-degree splines can model more complex curvature
+What factors influence the flexibility of a spline regression model?,The sample size,FALSE, Flexibility is defined by the model structure and not by the number of data points
+What factors influence the flexibility of a spline regression model?,Regularization or smoothing penalties,TRUE, Penalizing wiggliness reduces flexibility and prevents overfitting
+Which of the following are reasons AIC is widely used for model selection?,It balances fit and model complexity,TRUE, AIC penalizes models with more parameters while rewarding better fitting performance
+Which of the following are reasons AIC is widely used for model selection?,It applies to both linear and nonlinear models,TRUE, AIC is a general-purpose information criterion usable across many types of models
+Which of the following are reasons AIC is widely used for model selection?,It guarantees the best test performance,FALSE, AIC gives a good estimate but does not guarantee the best result on new data
+Which of the following are reasons AIC is widely used for model selection?,It is computationally more efficient than full cross-validation,TRUE, AIC avoids the need to repeatedly split and retrain models like in cross-validation
