@@ -1,0 +1,17 @@
+[project]
+name = "ml2-exam"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "ipykernel",
+    "keras",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "seaborn",
+    "umap-learn>=0.5.7",   # adds Py 3.12 support & no longer locks to old Numba
+    "numba>=0.59,<0.70",   # guarantees a wheel that works on Py 3.12
+]
